@@ -136,9 +136,10 @@ if ticker:
             # Gmail SMTP example (replace with your credentials)
             with smtplib.SMTP('smtp.gmail.com', 587) as server:
                 server.starttls()
-                server.login("gaganakb203@gmail.com", "zfgjqarfsnnjuasx")
+                server.login("gaganakb203@gmail.com", "ogoqldctjifiyfen")
                 server.send_message(msg)
 
             st.success("Email alert sent successfully!")
         except Exception as e:
             st.error(f"Email sending failed: {e}")
+
